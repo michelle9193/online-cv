@@ -1,3 +1,4 @@
+/* Centering the content of the navs */
 .container {
     text-align: center;
     margin-top: 20px;
@@ -10,6 +11,7 @@ div .nav {
     padding-right: 50px;
 }
 
+/* Background of nav */
 nav {
     background-color: #333;
     overflow: hidden;
@@ -26,13 +28,13 @@ nav {
     float: left;
 }
 
+/* Style the text on nav */
 p.navbar-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 2px;
     float: left;
-    
 }
 
 /* Style the link to move form left to right */
@@ -49,6 +51,7 @@ div .nav-right {
 
 }
 
+/* Style of jumbotron */
 div.jumbotron {
     /* background-image: url(../images/close-up-corrugated-design-880627.jpg); */
     opacity: 0.8;
@@ -58,6 +61,7 @@ div.jumbotron {
     margin-top: 20px;  
 }
 
+/* Style of footer */
 footer {
     padding: 10px;
     text-align: center;
