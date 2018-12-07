@@ -5,15 +5,21 @@ html {
 /* Centering the content of the navs */
 .container {
     text-align: center;
-    margin-top: 10px;
 }
 
 
+header {
+    padding: 0 50px;
+}
 
 /* Background of nav */
 nav {
     background-color: #333;
     overflow: hidden;
+}
+
+div .nav {
+    margin: 0 20px;
 }
 
 /* Style the links inside the navigation bar */
@@ -95,16 +101,10 @@ footer {
     /* Style the text on nav */
     p.navbar-text {
         font-family: 'Montserrat', sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         letter-spacing: 2px;
-        text-align: center;
-    }
-
-    /* Style the link to move form left to right */
-    div .nav-right {
-        
-        margin-top: 5px;
+        text-align: right;
     }
 
     /* Style the links inside the navigation bar */
@@ -116,10 +116,5 @@ footer {
         margin: 14px 20px;
         font-size: 1em;
     }
-    /* Add a black background color to the top navigation */
-div .nav {
-    text-align: center;
-    background-color: #333;
-    padding-right: 50px;
-}
+  
 }
