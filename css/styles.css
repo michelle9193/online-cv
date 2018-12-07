@@ -1,15 +1,14 @@
+html {
+    margin: 20px 20px;
+}
+
 /* Centering the content of the navs */
 .container {
     text-align: center;
     margin-top: 10px;
 }
 
-/* Add a black background color to the top navigation */
-div .nav {
-    float: left;
-    background-color: #333;
-    padding-right: 50px;
-}
+
 
 /* Background of nav */
 nav {
@@ -91,4 +90,36 @@ footer {
 
 
 /* RESPONSIVE DESIGN */
-@media only sec
+@media only screen and (min-width: 480px) {
+
+    /* Style the text on nav */
+    p.navbar-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    /* Style the link to move form left to right */
+    div .nav-right {
+        
+        margin-top: 5px;
+    }
+
+    /* Style the links inside the navigation bar */
+    .nav a {
+        font-family: 'Noto Sans  SC', sans-serif;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin: 14px 20px;
+        font-size: 1em;
+    }
+    /* Add a black background color to the top navigation */
+div .nav {
+    text-align: center;
+    background-color: #333;
+    padding-right: 50px;
+}
+}
