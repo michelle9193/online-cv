@@ -1,5 +1,5 @@
 html {
-    margin: 20px 20px;
+    margin: 10px 20px 20px;
 }
 
 /* Centering the content of the navs */
@@ -7,19 +7,13 @@ html {
     text-align: center;
 }
 
-
 header {
     padding: 0 50px;
 }
 
-/* Background of nav */
-nav {
-    background-color: #333;
-    overflow: hidden;
-}
-
 div .nav {
     margin: 0 20px;
+    position: fixed;
 }
 
 /* Style the links inside the navigation bar */
@@ -31,6 +25,13 @@ div .nav {
     margin: 14px 40px;
     font-size: 1em;
     float: left;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
 }
 
 /* Style the text on nav */
@@ -48,13 +49,6 @@ div .nav-right {
     margin-top: 12px;
 }
 
-/* Change the color of links on hover */
-.nav a:hover {
-    background-color: #ddd;
-    color: black;
-    text-decoration: none;
-}
-
 /* Style of jumbotron */
 div.jumbotron {
     color: white;
@@ -70,12 +64,19 @@ div.jumbotron {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0 8px 8px white inset;
 }
 
 
 .jumbotext {
     margin-top: 150px;
     font-family: 
+}
+
+/* About section */
+
+#about {
+    text-align: center;
 }
 
 /* Work experience style grid */
@@ -94,6 +95,15 @@ footer {
     opacity: 0.9;
 }
 
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
 
 /* RESPONSIVE DESIGN */
 @media only screen and (min-width: 480px) {
