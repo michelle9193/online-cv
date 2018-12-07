@@ -54,7 +54,6 @@ div .nav-right {
 div.jumbotron {
     color: white;
     height: 600px;
-    margin-top: 20px;  
     text-align: center;
 }
 
@@ -82,8 +81,6 @@ div.jumbotron {
     text-align: center;
 }
 
-
-
 /* Style of footer */
 footer {
     padding: 10px;
@@ -91,3 +88,7 @@ footer {
     background-color: #dd5303;
     opacity: 0.9;
 }
+
+
+/* RESPONSIVE DESIGN */
+@media only sec
