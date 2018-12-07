@@ -1,7 +1,7 @@
 /* Centering the content of the navs */
 .container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* Add a black background color to the top navigation */
@@ -40,6 +40,7 @@ p.navbar-text {
 /* Style the link to move form left to right */
 div .nav-right {
     float: right;
+    margin-top: 12px;
 }
 
 /* Change the color of links on hover */
@@ -51,12 +52,26 @@ div .nav-right {
 
 /* Style of jumbotron */
 div.jumbotron {
-    /* background-image: url(../images/close-up-corrugated-design-880627.jpg); */
-    opacity: 0.8;
-    background-size: cover;
-    background-repeat: none;
-    height: 400px;
+    color: white;
+    height: 500px;
     margin-top: 20px;  
+    text-align: center;
+}
+
+.parallax {
+    background-image: url(../images/abstract-abstract-painting-art-1193743.jpg);
+    opacity: 0.9;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.jumbotext {
+    margin-top: 150px;
+    font-family: 
 }
 
 /* Work experience style grid */
@@ -65,7 +80,7 @@ div.jumbotron {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 200px;
     text-align: center;
-  }
+}
 
 
 
