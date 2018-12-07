@@ -79,6 +79,25 @@ div.jumbotron {
     text-align: center;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
 /* Work experience style grid */
 .wrapper {
     display: grid;
