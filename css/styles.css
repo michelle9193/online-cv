@@ -167,7 +167,40 @@ img.img2 {
     background-image: url(../images/computer-device-electronics-872958.jpg);
     height: 100%;
     text-align: center;
+}
 
+h1#contact {
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    -webkit-border-radius:20px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    width: 500px;
+    -webkit-border-radius:20px;
+    border: none;
+    outline: none;
+}
+
+button.submit {
+    -webkit-border-radius:20px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    margin: 20px 0 50px 0;
+}
+
+button.submit:hover {
+    background-color: pink;
+    width: 150px;
+    transition-delay: 100ms;
 }
 
 /* Style of footer */
