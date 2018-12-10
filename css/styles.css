@@ -129,22 +129,19 @@ div.progress{
     margin-bottom: 15px;
 }
 
-/* Work experience style grid */
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
-    text-align: center;
-}
 
 /* Portfolio section */
 #portfolio {
     text-align: center;    
 }
 
-div.grid.container {
+div.grid2 {
     background-color: lightblue;
-    margin-bottom: 50px;
+    margin: 50px 0;
+}
+
+img.img2 {
+    margin: 0 40px 48.828px 40px;
 }
 
 .row {
@@ -154,17 +151,16 @@ div.grid.container {
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
+.column {
     flex: 25%;
     max-width: 75%;
     padding: 0 4px;
   }
   
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
   }
-
 
 
 /* Style of footer */
@@ -210,7 +206,7 @@ footer {
 }
 
 
-@media (min-device-width: 698px) {
+@media and screen only (min-width: 698px) {
     .column {
       width: 230px;
       height: 230px;
