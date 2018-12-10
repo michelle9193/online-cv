@@ -142,6 +142,11 @@ div.progress{
     text-align: center;    
 }
 
+div.grid.container {
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +156,7 @@ div.progress{
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
-    max-width: 25%;
+    max-width: 75%;
     padding: 0 4px;
   }
   
@@ -159,6 +164,8 @@ div.progress{
     margin-top: 8px;
     vertical-align: middle;
   }
+
+
 
 /* Style of footer */
 footer {
