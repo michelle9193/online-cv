@@ -7,21 +7,7 @@ html {
     text-align: center;
 }
 
-.skills {
-    text-align: left;
-}
 
-p .skills {
-    padding-bottom: 0;
-}
-
-div .progress-bar .progress-bar-striped {
-    
-}
-div.progress{
-    width: 500px;
-    height: 20px;
-}
 header {
     padding: 0 50px;
 }
@@ -125,6 +111,19 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
+}
+
+.skills {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+div .progress-bar .progress-bar-striped {
+    
+}
+div.progress{
+    width: 500px;
+    height: 20px;
 }
 
 /* Work experience style grid */
