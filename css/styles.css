@@ -213,7 +213,6 @@ button.submit:hover {
 
 i {
     font-size: 15px;
-    font-weight: bold;
 }
 
 /* Style of footer */
@@ -244,6 +243,13 @@ p.street {
 
 p.address {
     font-weight: normal;
+}
+
+i.far.fa-copyright::before {
+    float: center;
+    position: sticky;
+    top: 0;
+  
 }
 
 
