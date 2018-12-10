@@ -74,8 +74,9 @@ div.jumbotron {
     font-family: 
 }
 
-/* About section */
 
+
+/* About section */
 #about {
     text-align: center;
 }
@@ -120,10 +121,12 @@ img {
 
 div .progress-bar .progress-bar-striped {
     
+    
 }
 div.progress{
     width: 500px;
     height: 20px;
+    margin-bottom: 15px;
 }
 
 /* Work experience style grid */
