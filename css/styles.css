@@ -219,7 +219,7 @@ i {
 /* Style of footer */
 footer {
     height: 250px;
-    padding: 50px;
+    padding: 40px;
     text-align: left;
     background-color: #dd5303;
     opacity: 0.9;
@@ -229,6 +229,24 @@ footer {
 div.foot1 {
     float: left;
 }
+
+p.email {
+    margin-bottom: 0;
+}
+
+p.tel {
+    margin-bottom: 35px;
+}
+
+p.street {
+    margin-bottom: 0;
+}
+
+p.address {
+    font-weight: normal;
+}
+
+
 
 
 
