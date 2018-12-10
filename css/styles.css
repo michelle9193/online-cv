@@ -3,8 +3,12 @@ html {
 }
 
 /* Centering the content of the navs */
-.container {
+.head .container {
     text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 header {
