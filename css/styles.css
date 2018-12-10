@@ -137,6 +137,13 @@ div.progress{
     text-align: center;
 }
 
+/* Portfolio section */
+#portfolio {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+
 /* Style of footer */
 footer {
     padding: 10px;
