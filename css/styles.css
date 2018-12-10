@@ -7,10 +7,21 @@ html {
     text-align: center;
 }
 
-p {
+.skills {
     text-align: left;
 }
 
+p .skills {
+    padding-bottom: 0;
+}
+
+div .progress-bar .progress-bar-striped {
+    
+}
+div.progress{
+    width: 500px;
+    height: 20px;
+}
 header {
     padding: 0 50px;
 }
@@ -83,10 +94,18 @@ div.jumbotron {
     text-align: center;
 }
 
-.column {
+.column1 {
     float: left;
     width: 50%;
     text-align: center;
+    padding: 0 50px 0 20px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-left: 50px; 
 }
 
 /* Clear floats after the columns */
