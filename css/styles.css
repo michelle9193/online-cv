@@ -162,6 +162,13 @@ img.img2 {
     vertical-align: middle;
   }
 
+  /* Contact section */
+.contact {
+    background-image: url(../images/computer-device-electronics-872958.jpg);
+    height: 100%;
+    text-align: center;
+
+}
 
 /* Style of footer */
 footer {
