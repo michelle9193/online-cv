@@ -151,7 +151,7 @@ img.img2 {
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create four equal columns that sits next to each other
 .column {
     flex: 25%;
     max-width: 75%;
@@ -161,7 +161,7 @@ img.img2 {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-  }
+  } */
 
   /* Contact section */
 .contact {
@@ -270,6 +270,10 @@ i.far.fa-copyright::before {
 /* RESPONSIVE DESIGN */
 @media only screen and (min-width: 480px) {
 
+    html {
+        margin: 10px 10px 10px;
+    }
+
     header {
         padding: 0 10px;
     }
@@ -292,21 +296,27 @@ i.far.fa-copyright::before {
         margin: 14px 20px;
         font-size: 1em;
     }
+
+    .column1 {
+        float: left;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .column2 {
+        width: 100%;
+        text-align: center;
+        padding-left: 50px; 
+        margin-bottom: 50px;
+    }
   
+    div.progress{
+        width: 400px;
+        height: 20px;
+        margin-bottom: 15px;
+    }
 }
 
 
-@media only screen and (min-width: 698px) {
-    .column {
-      width: 230px;
-      height: 230px;
-      display: inline;
-      float: left;
-    }
-  }
+
   
-  .column {
-    width: 230px;
-    height: 230px;
-    margin: auto;
-  }
