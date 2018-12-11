@@ -12,11 +12,11 @@
 </head>
 <body>
 
-    <!-- Header content -->
+    <!-- Navbar content -->
     <header class="head container">
         <p class="navbar-text">michelle fortuin</p>
         <div class="nav">
-            <div class="nav-right">
+            <div class="nav-right collapse navbar-collapse" data-toggle="collapse">
                 <a href="#home">home</a>
                 <a href="#about">about</a>
                 <a href="#portfolio">portfolio</a>
@@ -24,6 +24,28 @@
             </div>    
         </div>
     </header>
+
+    
+    <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">home</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home" class="navbar-brand">michelle fortuin</a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+            </div>
+        </nav>
     
     <!-- Jumbotron content -->
         <div class="jumbotron parallax">

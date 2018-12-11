@@ -3,13 +3,18 @@ html {
 }
 
 /* Centering the content of the navs */
-.head .container {
+/* .head .container {
     text-align: center;
-}
+} */
 
 
 header {
     padding: 0 50px;
+}
+
+div.navebar-header {
+    border: none;
+    background-color: transparent;
 }
 
 div .nav {
@@ -315,6 +320,50 @@ i.far.fa-copyright::before {
         height: 20px;
         margin-bottom: 15px;
     }
+
+    h1#contact {
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        text-transform: uppercase;
+    }
+    
+    input {
+        width: 400px;
+        height: 30px;
+        -webkit-border-radius:20px;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        margin-bottom: 500px;
+    }
+    
+    textarea {
+        width: 400px;
+        -webkit-border-radius:20px;
+        border: none;
+        outline: none;
+        padding: 20px 20px 0 20px;
+    }
+
+    button.submit {
+        -webkit-border-radius:20px;
+        width: 120px;
+        height: 50px;
+        border: none;
+        margin: 20px 0 30px 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    footer {
+        height: 200px;
+        padding: 20px;
+        text-align: center;
+        background-color: #dd5303;
+        font-weight: bold;
+    }
+    
 }
 
 
