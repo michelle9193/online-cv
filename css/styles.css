@@ -14,7 +14,7 @@ header {
 
 div .nav {
     margin: 0 20px;
-    position: fixed;
+    position: static ;
 }
 
 /* Style the links inside the navigation bar */
@@ -58,8 +58,7 @@ div.jumbotron {
 }
 
 .parallax {
-    background-image: url(../images/abstract-abstract-painting-art-1193743.jpg);
-    opacity: 0.8;
+    background-image: url(../images/abstract-attractive-backdrop-988872.jpg);
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -71,6 +70,7 @@ div.jumbotron {
 
 .jumbotext {
     margin-top: 150px;
+    color: #910119;
 }
 
 
@@ -269,6 +269,10 @@ i.far.fa-copyright::before {
 
 /* RESPONSIVE DESIGN */
 @media only screen and (min-width: 480px) {
+
+    header {
+        padding: 0 10px;
+    }
 
     /* Style the text on nav */
     p.navbar-text {
