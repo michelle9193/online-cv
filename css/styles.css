@@ -17,7 +17,8 @@ a.navbar-brand {
     font-family: 'Pacifico', cursive;
     float: left;
     color: black;
-    font-size: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
     padding: 15px;
 }
 
@@ -25,25 +26,22 @@ ul.nav.navbar-nav {
     float: right;
 }
 
-li.active {
-    float: right;
-}
-
-
 /* Style the links inside the navigation bar */
 li {
     font-family: 'Noto Sans  SC', sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 0 20px;
-    font-size: 1em;
-    outline: none;
 }
 
+li a:active {
+    color: #E27A00
+}
 
 /* Change the color of links on hover */
-a:hover {
-    background-color: #ddd;
+li:hover {
+    border: 2px black solid;
+    border-radius: 5%;
     color: red;
     text-decoration: none;
 }
