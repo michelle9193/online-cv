@@ -270,17 +270,24 @@ i.far.fa-copyright::before {
         padding: 15px;
     }
     
-    .column1 {
-        float: left;
+    div.column1 {
+        display: block;
         width: 100%;
-        text-align: center; 
+        padding-right: 20px;
     }
 
-    .column2 {
-        width: 100%;
-        text-align: center;
-        padding-left: 50px; 
-        margin-bottom: 50px;
+    img.image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;     
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
   
     div.progress{
@@ -327,7 +334,6 @@ i.far.fa-copyright::before {
     footer {
         height: 200px;
         padding: 20px;
-        text-align: center;
         background-color: #dd5303;
         font-weight: bold;
     }
