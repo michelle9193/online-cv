@@ -24,18 +24,19 @@ a.navbar-brand {
 
 ul.nav.navbar-nav {
     float: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+a.active {
+    background-color: aqua;
+    border-radius: 50%;
 }
 
 /* Style the links inside the navigation bar */
 li {
-    font-family: 'Noto Sans  SC', sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 0 20px;
-}
-
-li a:active {
-    color: #E27A00
 }
 
 /* Change the color of links on hover */
@@ -64,12 +65,9 @@ div .nav-right {
 /* Style of jumbotron */
 div.jumbotron {
     color: white;
-    height: 600px;
+    height: 580px;
     text-align: center;
-}
-
-h1 {
-    margin-top: 0 auto;
+    margin-top: 20px;
 }
 
 .parallax {
@@ -84,8 +82,8 @@ h1 {
 
 
 .jumbotext {
-    margin-top: 150px;
-    color: #910119;
+    margin-top: 120px;
+    color: antiquewhite;
 }
 
 
@@ -235,16 +233,13 @@ div.foot1 {
     float: left;
 }
 
-p.email {
+p.email,
+p.street {
     margin-bottom: 0;
 }
 
 p.tel {
     margin-bottom: 35px;
-}
-
-p.street {
-    margin-bottom: 0;
 }
 
 p.address {
@@ -256,7 +251,6 @@ i.far.fa-copyright::before {
     text-anchor: middle;
     position: sticky;
     top: 0;
-  
 }
 
 
@@ -264,14 +258,9 @@ i.far.fa-copyright::before {
 
 
 
-
-
-
-
-
 /* -------------------------------------------------------------------------------------------------------------- */
-
 /* RESPONSIVE DESIGN */
+/* -------------------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {
 
     a.navbar-brand {
@@ -281,7 +270,6 @@ i.far.fa-copyright::before {
         padding: 15px;
     }
     
-
     .column1 {
         float: left;
         width: 100%;
