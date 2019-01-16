@@ -3,13 +3,19 @@ html {
     margin-top: 10px;
 }
 
+body {
+    background-color: #36494E;
+}
+
 /* Navbar styling */
-div.navbar-header {
-    border: 0;
+div#navbarCollapse.collapse.navbar-collapse {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
 }
 
 .navbar.navbar-default {
-    background-color: transparent;
+    background-color: white;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -57,7 +63,6 @@ div .nav-right {
 
 /* Style of jumbotron */
 div.jumbotron {
-    color: white;
     height: 580px;
     text-align: center;
     margin-top: 20px;
@@ -75,7 +80,7 @@ div.jumbotron {
 
 .jumbotext {
     margin-top: 300px;
-    color: black;
+    color: #FFE85C;
     text-align: left;
     padding-left: 30px;
     font-family: 'Pacifico', cursive;
@@ -110,9 +115,8 @@ img.image1 {
     width: 50%;
     text-align: center;
     padding-left: 50px; 
-    margin-bottom: 50px;
-    padding-top: 80px;
-  
+    padding-right: 50px;
+    margin-top: 200px; 
 }
 
 
@@ -137,20 +141,26 @@ img.image1 {
 /* Portfolio section */
 h1#portfolio {
     text-align: center;  
-    margin-top: 50px; 
+    margin-top: 100px; 
     margin-bottom: 70px; 
+    background-color: black;
 }
 
 img {
-    width: 23%;
-    height: 75%;
+    width: 220px;
+    height: 300px;
     margin-right: 20px;
+
+}
+
+div.row {
+    margin: 0 auto;
 }
 
 .row1,
 .row2 {
-    padding-bottom: 10px;
-    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
 }
 
 /* Contact Section */
@@ -162,7 +172,7 @@ footer {
     margin-top: 80px;
     padding: 20px 40px;
     text-align: left;
-    background-color: #dd5303;
+    background-color: #FFE85C;
     font-weight: bold;
 }
 
