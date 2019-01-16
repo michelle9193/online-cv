@@ -295,21 +295,26 @@ i.far.fa-copyright::before {
         width: 80%;
     }
 
-    
-
     img.image1 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;     
+        width: 70%;     
     }
 
     img {
-        display: inline;
+        vertical-align: none;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 30%;
     }
+
+    .row1,
+    .row2 {
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+
 }
 
 
