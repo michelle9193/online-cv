@@ -3,9 +3,6 @@ html {
     margin-top: 10px;
 }
 
-body {
-    background-color: #36494E;
-}
 
 /* Navbar styling */
 div#navbarCollapse.collapse.navbar-collapse {
@@ -26,10 +23,6 @@ ul.nav.navbar-nav {
     font-family: 'Raleway', sans-serif;
 }
 
-a.active {
-    background-color: aqua;
-    border-radius: 50%;
-}
 
 /* Style the links inside the navigation bar */
 li {
@@ -41,9 +34,8 @@ li {
 /* Change the color of links on hover */
 li:hover {
     border: 2px black solid;
-    border-radius: 5%;
-    color: red;
     text-decoration: none;
+    border-radius: 10%;
 }
 
 /* Style the text on nav */
@@ -97,7 +89,7 @@ h1.greeting {
     padding-top: 60px;
 }
 
-div.column1 {
+main.column1 {
     float: left;
     width: 50%;
     text-align: center;
@@ -167,6 +159,7 @@ div.row {
 /* Contact Section */
 
 
+
 /* Style of footer */
 footer {
     height: 200px;
@@ -177,29 +170,15 @@ footer {
     font-weight: bold;
 }
 
-div.foot1 {
-    float: left;
-}
-
-p.email,
-p.street {
-    margin-bottom: 0;
-}
-
-p.tel {
-    margin-bottom: 35px;
-}
-
-p.address {
-    font-weight: normal;
-}
 
 
-i.far.fa-copyright::before {
-    text-anchor: middle;
-    position: sticky;
-    top: 0;
-}
+
+
+
+
+
+
+
 
 
 
