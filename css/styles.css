@@ -1,10 +1,12 @@
 /* Styling of html */
-html {
+
+
+body {
     margin-top: 10px;
+    background-color: #FFE85C;
 }
 
 /* Navbar styling */
-
 nav.navbar {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -98,7 +100,7 @@ h1#portfolio {
 }
 
 img.portfolio {
-    width: 250px;
+    width: 200px;
     height: 300px;
     margin-right: 40px;
     opacity: 0.5;
@@ -107,7 +109,7 @@ img.portfolio {
 .row1,
 .row2 {
     padding-bottom: 20px;
-    padding-left: 130px;
+    padding-left: 200px;
 }
 
 /* Contact Section */
