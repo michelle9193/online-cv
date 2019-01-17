@@ -4,11 +4,16 @@ html {
 }
 
 /* Navbar styling */
+
+nav.navbar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 a.button.is-rounded {
+    text-transform: uppercase;
     text-decoration: none;
     margin-right: 30px;
-    margin-top: 20px;
- 
 }
 
 a.button.is-rounded:hover {
@@ -19,9 +24,8 @@ a.button.is-rounded:hover {
 
 /* Style of jumbotron */
 div.jumbotron {
-    height: 580px;
+    height: 570px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .parallax {
@@ -34,15 +38,21 @@ div.jumbotron {
 }
 
 .jumbotext {
-    margin-top: 300px;
+    margin-top: 200px;
     color: #FFE85C;
     text-align: left;
     padding-left: 30px;
-    font-family: 'Pacifico', cursive;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-h1.greeting {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1.name {
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    
 }
 
 /* About section */
