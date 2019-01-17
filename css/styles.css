@@ -1,15 +1,11 @@
-/* Styling of html */
-
-
 body {
     margin-top: 10px;
-    background-color: #FFE85C;
 }
 
 /* Navbar styling */
 nav.navbar {
-    margin-top: 15px;
-    margin-bottom: 15px;
+   margin-bottom: 15px;
+   padding-top: 20px;
 }
 
 a.button.is-rounded {
@@ -26,6 +22,7 @@ a.button.is-rounded:hover {
 
 /* Style of jumbotron */
 div.jumbotron {
+    margin-top: 80px;
     height: 570px;
     text-align: center;
 }
@@ -209,8 +206,6 @@ footer {
     }
     
 }
-
-
 
 @media only screen and (max-width:793px) {
     div.column {
