@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin-top: 10px;
 }
@@ -8,17 +12,27 @@ nav.navbar {
    border-radius: 0%;
 }
 
+/* Active button styles */
+a.button.is-rounded.is-active {
+    border: 1px solid black;
+}
+
+a.button.is-rounded.is-active:hover {
+    border: 1px solid black;
+}
+
 a.button.is-rounded {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 30px;
     font-weight: bold;
+    border: none;
 }
 
 a.button.is-rounded:hover {
     text-decoration: none;
     transition-delay: 50ms;
-    color: #FFE85C;
+    border: 2px solid #FFE85C;
 }
 
 /* Style of jumbotron */
@@ -52,19 +66,23 @@ div.jumbotron {
 h1.name {
     margin-bottom: 20px;
     letter-spacing: 20px;
-    
 }
 
-/* About section */
-#about {
-    text-align: center;  
+
+/* All headings (about, skills, portfolio and contact */
+.headings {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 8px;  
     padding: 20px 0 20px 0; 
     margin: 50px 0 50px 0;
-    background-color: black;
+    background-color: #1C1B21;
     font-size: 20px;
     color: white;
 }
 
+/* About section */
 main.column1 {
     float: left;
     width: 50%;
@@ -100,8 +118,13 @@ p.about {
     color: white;
 }
 
-i {
-    font-size: 100px;
+.skills {
+    margin-left: 70px;
+}
+
+article.programs {
+    font-size: 80px;
+    margin-left: 70px;
 }
 
 /* Portfolio section */
@@ -136,16 +159,17 @@ img.portfolio {
     color: white;
 }
 
-
-/* Style of footer */
-footer {
-    height: 150px;
-    margin-top: 80px;
-    padding: 20px 40px;
-    text-align: left;
-    background-color: #FFE85C;
-    font-weight: bold;
+article.connect {
+    font-size: 80px;
+    margin-left: 350px;
 }
+
+i {
+    padding-right: 100px;
+}
+
+
+
 
 
 

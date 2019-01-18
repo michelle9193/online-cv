@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -28,92 +28,95 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
-                <a class="button is-rounded is-active">
+                <a href="#home" class="button is-rounded is-active">
                     Home
                 </a>
 
-                <a class="button is-rounded">
+                <a href="#about" class="button is-rounded">
                     About
                 </a>
 
-                <a class="button is-rounded">
+                <a href="#skills" class="button is-rounded">
+                        Skills
+                    </a>
+
+                <a href="#portfolio" class="button is-rounded">
                     Portfolio
                 </a>
             
-                <a class="button is-rounded">
+                <a href="#contact" class="button is-rounded">
                     Contact Me
                 </a>
             </div>
         </div>
-</nav>
+    </nav>
 
     <!-- Jumbotron content -->
-        <div class="jumbotron parallax">
-            <article class="jumbotext">
-                <!-- greeting will change to different languages -->
-                <h1 class="name">Michelle Fortuin</h1> 
-                <p class="">
-                    Junior Web Developer
-                </p> 
-            </article>    
-        </div>
+    <div id="home" class="jumbotron parallax">
+        <article class="jumbotext">
+            <!-- greeting will change to different languages -->
+            <h1 class="name">Michelle Fortuin</h1> 
+            <p class="">
+                Junior Web Developer
+            </p> 
+        </article>    
+    </div>
 
 
     <!-- About me section  -->
-        <h1 id="about">About</h1>
-            <div class="row">
-                <main class="column1">
-                    <img src="images/no_avatar.jpg" alt="profile" class="image1">
-                </main>
-                <main class="column2">
-                    <p class="about">
-                        I'm a Full Stack Developer based in Cape Town. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, numquam sit! Iure, id, maxime ad ratione iusto maiores facilis natus expedita, dicta harum cum tempore ipsam facere mollitia sunt soluta.
-                    </p>
-                </main>
-            </div>
+    <h1 id="about" class="headings">About</h1>
+        <div class="row">
+            <main class="column1">
+                <img src="images/no_avatar.jpg" alt="profile" class="image1">
+            </main>
+            <main class="column2">
+                <p class="about">
+                    I'm a Full Stack Developer based in Cape Town. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, numquam sit! Iure, id, maxime ad ratione iusto maiores facilis natus expedita, dicta harum cum tempore ipsam facere mollitia sunt soluta.
+                </p>
+            </main>
+        </div>
         
-    <!-- Skills -->
-        <h1 id="skills">Skills</h1>
+    <!-- Skills section -->
+    <h1 id="skills" class="headings">Skills</h1>
+        <section class="skills"> 
+            <article class="programs">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-node"></i>
+
+            </article>
+        </section> 
+
+    <!-- Portfolio section -->
+    <h1 id="portfolio" class="headings">Portfolio</h1>         
+        <main class="row1"> 
+            <article>
+                <img src="images/greyimg.png" class="portfolio">
+                <img src="images/greyimg.png" class="portfolio">
+                <img src="images/greyimg.png" class="portfolio">
+                <img src="images/greyimg.png" class="portfolio"> 
+            </article>
+        </main> 
+         
+    <!-- Contact section -->
+        <h1 id="contact" class="headings">Contact</h1>
             <section class="skills"> 
-                <article>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js-square"></i>
-
-                    <i class="fab fa-npm"></i>
-                    <i class="fab fa-node"></i>
-
+                <article class="connect">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-linkedin"></i>
                 </article>
             </section> 
 
-
-    <!-- Portfolio -->
-    <div>
-        <h1 id="portfolio">Portfolio</h1>         
-            <main class="row1"> 
-                <article>
-                    <img src="images/greyimg.png" class="portfolio">
-                    <img src="images/greyimg.png" class="portfolio">
-                    <img src="images/greyimg.png" class="portfolio">
-                    <img src="images/greyimg.png" class="portfolio"> 
-                </article>
-            </main> 
-    </div>       
-
-    
-
-    <!-- Contact -->
-        <h1 id="contact">Contact</h1>
-
-
-        
-
     <!-- Footer content -->
     <footer>
-        <div class="foot1">
-            
-        </div>
+        <main>
+            <p></p>
+        </main>
     </footer>
      
 </body>
