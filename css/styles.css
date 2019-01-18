@@ -4,14 +4,15 @@ body {
 
 /* Navbar styling */
 nav.navbar {
-   margin-bottom: 15px;
    padding-top: 20px;
+   border-radius: 0%;
 }
 
 a.button.is-rounded {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 30px;
+    font-weight: bold;
 }
 
 a.button.is-rounded:hover {
@@ -22,8 +23,8 @@ a.button.is-rounded:hover {
 
 /* Style of jumbotron */
 div.jumbotron {
-    margin-top: 80px;
-    height: 570px;
+    margin-top: 74px;
+    height: 580px;
     text-align: center;
 }
 
@@ -55,10 +56,13 @@ h1.name {
 }
 
 /* About section */
-h1#about {
-    font-size: 50px;
-    text-align: center;
-    padding-top: 60px;
+#about {
+    text-align: center;  
+    padding: 20px 0 20px 0; 
+    margin: 50px 0 50px 0;
+    background-color: black;
+    font-size: 20px;
+    color: white;
 }
 
 main.column1 {
@@ -86,8 +90,19 @@ p.about {
     padding-right: 250px;
 }
 
+/* Skills */
+
+#skills {
+    text-align: center;  
+    padding: 20px 0 20px 0; 
+    margin: 50px 0 50px 0;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
 /* Portfolio section */
-h1#portfolio {
+#portfolio {
     text-align: center;  
     padding: 20px 0 20px 0; 
     margin: 50px 0 50px 0;
@@ -103,19 +118,25 @@ img.portfolio {
     opacity: 0.5;
 }
 
-.row1,
-.row2 {
+.row1 {
     padding-bottom: 20px;
     padding-left: 200px;
 }
 
 /* Contact Section */
-
+#contact {
+    text-align: center;  
+    padding: 20px 0 20px 0; 
+    margin: 50px 0 50px 0;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
 
 
 /* Style of footer */
 footer {
-    height: 180px;
+    height: 150px;
     margin-top: 80px;
     padding: 20px 40px;
     text-align: left;
